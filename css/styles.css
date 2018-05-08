@@ -1,10 +1,40 @@
-#test{
-	
-fill="#A1F1F1"
+#test {
+    
+    background-color: green;
+    border-style: solid;
+    border-color: black;
+    
 }
 
-body{
-background-color:#fda9bc;
-background-image: url(../images/Polka_Dot.svg);	
+#tile-style {
+    height: 30em;
+    border-style: solid;
+    border-color: black;
+}
 
+#footer {
+    height: 10em;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    background-color: #ece6e6;
+    border-top-style: groove;
+    
+    border-top-color: black;
+}
+
+#donate-icon {
+    width: 1em;
+    heigth: 1em;
+    padding-bottom: 0.2em;
+}
+
+ul {
+    list-style-type: none;
+}
+
+body {
+    margin-bottom: 12em;
+    background-color: #fda9bc;
+    background-image: url(../images/svg/Polka_Dot.svg);
 }

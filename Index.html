@@ -6,39 +6,68 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <!-- Bootstrap -->
-    <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet" media="screen">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
     <link href="./css/styles.css" rel="stylesheet" media="screen">
 
 </head>
-    <body>
- 
-        <div class="container">
-            <div class="row">
-                <nav class="navbar navbar-toggleable-md navbar-inverse">
 
-                    <a href="#" class="navbar-brand text-primary" id="logo">Crypto4Cats</a>
-
-                    <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                        <span class="navbar-toggler-icon"></span>
-                    </button>
-
-                    <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
-                        <ul class="navbar-nav">
-                            <li class="nav-item">
-                                <a class="nav-link text-primary" href="#">Store</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link text-primary" href="#">Gallery</a>
-                            </li>
-                        </ul>
-                    </div>
-                        
-                </nav>
+<body>
+    <!-- Nav bar-->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="#">Navbar</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav">
+                <a class="nav-item nav-link active" href="#">Home <span class="sr-only">(current)</span></a>
+                <a class="nav-item nav-link" href="#">Features</a>
+                <a class="nav-item nav-link" href="#">Pricing</a>
+                <a class="nav-item nav-link disabled" href="#">Disabled</a>
             </div>
         </div>
-        
+    </nav>
+    
+    <!-- Story + Feed-->
+    <div class="container-fluid text-center pt-4">
+        <div class="row mt-4">
+
+            <div class="col-md-1"></div>
+            <div id="tile-style" class="col-md-5">
+
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTs9f4P0Bqk8ayyowLexa_04zBbW_ZkE0dvSDkXvwk49Ag7np3AyQ" />
+            </div>
+            <div class="col-md-1   mt-5"></div>
+            <div id="tile-style" class="col-md-4">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTs9f4P0Bqk8ayyowLexa_04zBbW_ZkE0dvSDkXvwk49Ag7np3AyQ" />
+            </div>
+            <div class="col-md-1"></div>
+        </div>
+    </div>
+    <!-- spacer-->
+
+
+    <!-- Footer -->
+    <div class="container-fluid pt-1">
+        <div class="row">
+            <div id="footer" class="col-lg-12 text-center pt-3 text-nowrap">
+
+                <h5 class="pb-1"> Donations Appreciated!</h5>
+
+                <div class="pb-2"> <img src="./images/svg/ltc.svg" id="donate-icon" /> <a href="#"> LTC: 0x06012c8cf97BEaD5deAe237070F9587f8E7A266d </a><br /></div>
+
+                <div class="pb-2">
+                    <img src="./images/svg/btc.svg" id="donate-icon" /> <a href="#"> BTC: 0x06012c8cf97BEaD5deAe237070F9587f8E7A266d </a> <br />
+                </div>
+
+                <div class="pb-2"> <img src="./images/svg/eth.svg" id="donate-icon" /> <a href="#"> ETH: 0x06012c8cf97BEaD5deAe237070F9587f8E7A266d </a> <br /></div>
+
+            </div>
+        </div>
+    </div>
+
     <script src="http://code.jquery.com/jquery.js"></script>
     <script src="bootstrap/js/bootstrap.min.js"></script>
-  	
-    </body>
+
+</body>
 </html>
