@@ -12,22 +12,40 @@
 }
 
 #tile-style {
-    height: 23em;
+    height: 24.5em;
     border-radius: 1.5em;
-    border-style: solid;
+    border-style: outset;
     border-color: black;
-    background-color: rgba(255,255,255,0.8);
+    background-color: rgba(255,255,255,0.85);
+    box-shadow: 3px 4px #f794ab;
 }
 
-td {
-    max-width: 20%;
-    vertical-align: middle;
-    overflow: hidden;
-}
 
 #token-td {
     width: 30%;
     vertical-align: middle;
+}
+#scrolling {
+    overflow: auto;
+}
+#no-overflow {
+    overflow: hidden;
+}
+
+.navbar{
+    border-bottom-style: solid;
+    border-bottom-color: black;
+
+
+}
+
+a:hover{
+  
+}
+td {
+    max-width: 20%;
+    vertical-align: middle;
+    overflow: hidden;
 }
 
 table {
@@ -35,26 +53,28 @@ table {
     width: 100%;
 }
 
-div {
-    overflow: hidden;
-}
 footer {
     position: fixed;
+    width: 100%;
     left: 0;
     bottom: 0;
     background-color: #ece6e6;
-    border-top-style: dashed;
-    border-top-color: black;
-    border-width: 0.1em;
+    border-top-style: solid;
+    border-top-color: darkolivegreen;
+    border-width: 0.05em;
 }
 
+
+div div div{
+    overflow: hidden;
+}
 
 ul {
     list-style-type: none;
 }
 
 body {
-    margin-bottom: 8em;
+    margin-bottom: 5em;
     background-color: #fda9bc;
     background-image: url(../images/svg/Polka_Dot.svg);
 }

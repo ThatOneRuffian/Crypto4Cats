@@ -13,43 +13,58 @@
 
 <body>
     <!-- Nav bar-->
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <a class="navbar-brand" href="#">Crypto4Cats</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-            <div class="navbar-nav">
-                <a class="nav-item nav-link " href="#">Home <span class="sr-only">(current)</span></a>
-                <a class="nav-item nav-link active" href="#">CryptoKitty <br />Shop</a>
-                <a class="nav-item nav-link active" href="#">Gallery</a>
-                <a class="nav-item nav-link active" href="#">Token Info</a>
+
+        <nav class="navbar navbar-expand-lg navbar-light bg-light" role="navigation">
+            <a class="navbar-brand" href="#">Crypto4Cats</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
+                <div class=" navbar-nav">
+                    <a class="nav-item nav-link active  pr-4" href="#">Token Info</a>
+                    <a class="nav-item nav-link active pr-4" href="#">CryptoKitty Raffle</a>
+                    <a class="nav-item nav-link active  pr-4" href="#"> Rescue Gallery</a>
+
+                </div>
             </div>
-        </div>
-    </nav>
+        </nav>
+
 
     <!-- Story + Feed-->
     <div class="container-fluid text-center pt-1  mt-4 ">
         <div class="row">
 
-            <div class="col-md-1"></div>
-            <div id="tile-style" class="col-md-5 pt-2">
-                <h4 class="text-left"><strong>Story</strong></h4>
+            <div id="no-overflow" class="col-md-1"></div>
+            <div id="tile-style" class="col-md-5 pt-2 ">
+
+                <h4 class="text-left "><strong>Story</strong></h4>
                 <hr />
-                <p class="text-left">
-                    This is a story. This is a story.This is a story.This is a story.This is a story.This is a story.This is a story.This is a story.This is a story.
-                </p>
+                    <div id="scrolling">
+                        <p class="text-left">
+                            This is a story. This is a story.This is a story.This is a story.This is a story.This is a story.This is a story.This is a story.This is a story.
+                            This is a story. This is a story.This is a story.This is a story.This is a story.This is a story.This is a story.This is a story.This is a story.
+                            This is a story. This is a story.This is a story.This is a story.This is a story.This is a story.This is a story.This is a story.This is a story.
+                            This is a story. This is a story.This is a story.This is a story.This is a story.This is a story.This is a story.This is a story.This is a story.
+                            This is a story. This is a story.This is a story.This is a story.This is a story.This is a story.This is a story.This is a story.This is a story.
+                            This is a story. This is a story.This is a story.This is a story.This is a story.This is a story.This is a story.This is a story.This is a story.
+                            This is a story. This is a story.This is a story.This is a story.This is a story.This is a story.This is a story.This is a story.This is a story.
+                            This is a story. This is a story.This is a story.This is a story.This is a story.This is a story.This is a story.This is a story.This is a story.
+                            zzz
+                        </p>
+                    </div>
+                
 
             </div>
-            <div class="col-md-1 p-2"></div>
+            <div class="col-md-1 pt-3 pb-3"></div>
+
             <div id="tile-style" class="col-md-4 pt-2">
 
                 <h3>
-                    Cryptos4Cats Token Sale
+                    Cryptos4Cats Token Info
                 </h3>
                 <hr />
                 <div>
-                    <div id="token-td" class="d-inline-block text-center">Donation Address</div>
+                    <div id="token-td" class="d-inline-block text-center">Contributor Address</div>
                     <div id="token-td" class="d-inline-block text-center">Tokens Aquired</div>
                     <div id="token-td" class="d-inline-block text-center">Timestamp  (UTC)</div>
                 </div>
@@ -100,6 +115,17 @@
                                 <div class="text-truncate d-inline-block text-center">00:00:00</div>
                             </td>
                         </tr>
+                        <tr>
+                            <td>
+                                <div class="text-truncate d-inline-block">0x00000000000000000000000000000...</div>
+                            </td>
+                            <td>
+                                <div class="text-truncate d-inline-block text-center">1111111 C4C</div>
+                            </td>
+                            <td>
+                                <div class="text-truncate d-inline-block text-center">00:00:00</div>
+                            </td>
+                        </tr>
 
                     </tbody>
                 </table>
@@ -109,9 +135,7 @@
     </div>
     <!-- spacer-->
     <!-- Footer -->
-    <footer>
-
-
+    <footer class="mt-1">
     <div class="container-fluid">
             <div class="row text-center text-nowrap">      
                 <div class="col-md-4 order-2 pt-2  text-truncate d-inline-block">
@@ -133,10 +157,12 @@
     </div>
 
     <div class="container-fluid">
-        <div class="row">
-            <div class="col-md-12 text-center pt-1">
-                <strong><p> Donations are Purrfect!</p></strong>
-            </div>
+        <div class="row col-md-12 text-center pt-1 d-inline-block">
+
+            <img src="./images/svg/wcat.svg" id="donate-icon" class="pr-2"/>
+            <strong><a> Donations are Purrfect!</a></strong>
+            <img src="./images/svg/bcat.svg" id="donate-icon" class="pl-2" />
+
         </div>
     </div>
 </footer>
