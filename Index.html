@@ -21,19 +21,19 @@
         <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
             <div class="navbar-nav">
                 <a class="nav-item nav-link " href="#">Home <span class="sr-only">(current)</span></a>
-                <a class="nav-item nav-link active" href="#">CryptoKitty <br/>Shop</a>
+                <a class="nav-item nav-link active" href="#">CryptoKitty <br />Shop</a>
                 <a class="nav-item nav-link active" href="#">Gallery</a>
                 <a class="nav-item nav-link active" href="#">Token Info</a>
             </div>
         </div>
     </nav>
-    
+
     <!-- Story + Feed-->
-    <div class="container-fluid text-center pt-4  mt-4 ">
+    <div class="container-fluid text-center pt-1  mt-4 ">
         <div class="row">
 
             <div class="col-md-1"></div>
-            <div id="tile-style" class="col-md-5 pt-3">
+            <div id="tile-style" class="col-md-5 pt-2">
                 <h4 class="text-left"><strong>Story</strong></h4>
                 <hr />
                 <p class="text-left">
@@ -41,45 +41,108 @@
                 </p>
 
             </div>
-            <div class="col-md-1 p-3"></div>
-            <div id="tile-style" class="col-md-4">
-                <h3 class="pt-3">
-                    ERC20 Token Sale
+            <div class="col-md-1 p-2"></div>
+            <div id="tile-style" class="col-md-4 pt-2">
+
+                <h3>
+                    Cryptos4Cats Token Sale
                 </h3>
                 <hr />
-                <p class="nowrap">Donation Address • Tokens Aquired • Timestamp</p>
-                <hr />
-                <div id="test"class="col-md-6  text-truncate text-left">
-                    Praeterea iter est quasdam res quas ex communi.
+                <div>
+                    <div id="token-td" class="d-inline-block text-center">Donation Address</div>
+                    <div id="token-td" class="d-inline-block text-center">Tokens Aquired</div>
+                    <div id="token-td" class="d-inline-block text-center">Timestamp  (UTC)</div>
                 </div>
+                <hr />
+                <table class="table table-striped" >
+                    <tbody>
+                        <tr>
+                            <td>
+                                <div class="text-truncate d-inline-block">0x00000000000000000000000000000...</div>
+                            </td>
+                            <td>
+                                <div class="text-truncate d-inline-block text-center">10000000 C4C</div>
+                            </td>
+                            <td>
+                                <div class="text-truncate d-inline-block text-center">00:00:00</div>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <div class="text-truncate d-inline-block">0x00000000000000000000000000000...</div>
+                            </td>
+                            <td>
+                                <div class="text-truncate d-inline-block text-center">777000 C4C</div>
+                            </td>
+                            <td>
+                                <div class="text-truncate d-inline-block text-center">00:00:00</div>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <div class="text-truncate d-inline-block">0x00000000000000000000000000000...</div>
+                            </td>
+                            <td>
+                                <div class="text-truncate d-inline-block text-center">9876543 C4C</div>
+                            </td>
+                            <td>
+                                <div class="text-truncate d-inline-block text-center">00:00:00</div>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <div class="text-truncate d-inline-block">0x00000000000000000000000000000...</div>
+                            </td>
+                            <td>
+                                <div class="text-truncate d-inline-block text-center">1111111 C4C</div>
+                            </td>
+                            <td>
+                                <div class="text-truncate d-inline-block text-center">00:00:00</div>
+                            </td>
+                        </tr>
+
+                    </tbody>
+                </table>
             </div>
             <div class="col-md-1"></div>
         </div>
     </div>
     <!-- spacer-->
-
-
     <!-- Footer -->
-    <div class="container-fluid pt-1">
-        <div class="row">
-            <div id="footer" class="col-lg-12 text-center pt-3 text-nowrap">
+    <footer>
 
-                <h5 class="pb-1"> Donations Appreciated!</h5>
 
-                <div class="pb-2"> <img src="./images/svg/ltc.svg" id="donate-icon" /> <a href="#"> LTC: 0x06012c8cf97BEaD5deAe237070F9587f8E7A266d </a><br /></div>
-
-                <div class="pb-2">
-                    <img src="./images/svg/btc.svg" id="donate-icon" /> <a href="#"> BTC: 0x06012c8cf97BEaD5deAe237070F9587f8E7A266d </a> <br />
+    <div class="container-fluid">
+            <div class="row text-center text-nowrap">      
+                <div class="col-md-4 order-2 pt-2  text-truncate d-inline-block">
+                    <img src="./images/svg/ltc.svg" id="donate-icon" />
+                    <a href="#">LTC: 0x06012c8cf97BEaD5deAe237070F9587f8E7A266d</a><br />
                 </div>
 
-                <div class="pb-2"> <img src="./images/svg/eth.svg" id="donate-icon" /> <a href="#"> ETH: 0x06012c8cf97BEaD5deAe237070F9587f8E7A266d </a> <br /></div>
+                <div class="col-md-4 order-1 pt-2  text-truncate d-inline-block">
 
+                    <img src="./images/svg/eth.svg" id="donate-icon"/>
+                    <a href="#">ETH:  0x06012c8cf97BEaD5deAe237070F9587f8E7A266d</a> <br />
+                </div>
+
+                <div class="col-md-4 order-3 pt-2  text-truncate d-inline-block">
+                    <img src="./images/svg/btc.svg" id="donate-icon" />
+                    <a href="#">BTC:  0x06012c8cf97BEaD5deAe237070F9587f8E7A266d</a> <br />
+                </div>
+            </div>
+    </div>
+
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-12 text-center pt-1">
+                <strong><p> Donations are Purrfect!</p></strong>
             </div>
         </div>
     </div>
+</footer>
 
-    <script src="http://code.jquery.com/jquery.js"></script>
-    <script src="./js/bootstrap.min.js"></script>
+<script src="http://code.jquery.com/jquery.js"></script>
+<script src="./js/bootstrap.min.js"></script>
 
 </body>
 </html>

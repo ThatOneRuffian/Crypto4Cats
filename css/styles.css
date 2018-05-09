@@ -1,23 +1,44 @@
 
-#test {
-    
+.test {  
     background-color: green;
     border-style: solid;
     border-color: black;
     
 }
 
+#donate-icon {
+    width: 1.4em;
+    padding-bottom: 0.2em;
+}
+
 #tile-style {
-    height: 30em;
-    border-radius: 2em;
+    height: 23em;
+    border-radius: 1.5em;
     border-style: solid;
     border-color: black;
     background-color: rgba(255,255,255,0.8);
 }
 
+td {
+    max-width: 20%;
+    vertical-align: middle;
+    overflow: hidden;
+}
 
-#footer {
-    height: 10em;
+#token-td {
+    width: 30%;
+    vertical-align: middle;
+}
+
+table {
+    table-layout: fixed;
+    width: 100%;
+}
+
+div {
+    overflow: hidden;
+}
+footer {
     position: fixed;
     left: 0;
     bottom: 0;
@@ -27,18 +48,13 @@
     border-width: 0.1em;
 }
 
-#donate-icon {
-    width: 1em;
-    heigth: 1em;
-    padding-bottom: 0.2em;
-}
 
 ul {
     list-style-type: none;
 }
 
 body {
-    margin-bottom: 12em;
+    margin-bottom: 8em;
     background-color: #fda9bc;
     background-image: url(../images/svg/Polka_Dot.svg);
 }
