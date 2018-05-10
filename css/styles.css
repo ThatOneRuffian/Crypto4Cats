@@ -5,42 +5,53 @@
     border-color: black;
     
 }
-
+.navbar {
+    border-bottom-style: solid;
+    border-bottom-color: black;
+}
 #donate-icon {
     width: 1.4em;
     padding-bottom: 0.2em;
 }
 
 #tile-style {
-    height: 24.5em;
-    border-radius: 1.5em;
+
+    height: 300px;
+    border-radius: 1.25em;
     border-style: outset;
     border-color: black;
     background-color: rgba(255,255,255,0.85);
-    box-shadow: 3px 4px #f794ab;
 }
 
+#scroll-content {
+    overflow: auto;
+    height: 75%;
+    max-height:100%;
+}
 
 #token-td {
+    overflow:visible;
+    font-weight:bold;
     width: 30%;
     vertical-align: middle;
 }
-#scrolling {
+
+#admin{
+    font-size: 0.7em;
+}
+
+#token-table {
     overflow: auto;
-}
-#no-overflow {
-    overflow: hidden;
-}
-
-.navbar{
-    border-bottom-style: solid;
-    border-bottom-color: black;
-
-
+    height: 33%;
+    
 }
 
 a:hover{
   
+}
+
+h3 {
+    width:100%;
 }
 td {
     max-width: 20%;
@@ -49,6 +60,7 @@ td {
 }
 
 table {
+    overflow: hidden;
     table-layout: fixed;
     width: 100%;
 }
@@ -64,9 +76,8 @@ footer {
     border-width: 0.05em;
 }
 
-
-div div div{
-    overflow: hidden;
+div{
+    overflow:hidden;
 }
 
 ul {
@@ -74,7 +85,7 @@ ul {
 }
 
 body {
-    margin-bottom: 5em;
+    margin-bottom: 14em;
     background-color: #fda9bc;
-    background-image: url(../images/svg/Polka_Dot.svg);
+    background-image: url(../images/svg/polka_dot.svg);
 }
