@@ -1,31 +1,56 @@
 
+#bg-animation {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+}
+
+#rainAnimate {
+    width: 50px;
+    height: 50px;
+    position: absolute;
+}
+
 .test {  
     background-color: green;
     border-style: solid;
     border-color: black;
-    
 }
 .navbar {
+    min-height: 51px;
     border-bottom-style: solid;
     border-bottom-color: black;
 }
+
 #donate-icon {
-    width: 1.4em;
-    padding-bottom: 0.2em;
+    margin-right:0.5em;
+    width: 1em;
+    padding-top: 0.03em;
+}
+#donate-call{
+    font-size:0.75em;
+}
+#catIcon{
+    width: 20px;
 }
 
 #tile-style {
 
-    height: 20em;
+    margin-left: 1em;
+    margin-right: 1em;
+    height: 65vh;
     border-radius: 1.25em;
     border-style: outset;
     border-color: black;
     background-color: rgba(255,255,255,0.85);
 }
-
+#cryptoID{
+    font-size:0.75em;
+    font-weight: 1em;
+}
 #scroll-content {
     overflow: auto;
-    height: 75%;
+    height: 82%;
     max-height:100%;
 }
 
@@ -36,14 +61,16 @@
     vertical-align: middle;
 }
 
-#admin{
-    font-size: 0.7em;
+#admin {
+    padding-top: 1em;
+    padding-bottom: 1em;
+    line-height: 0.75em;
+    font-size: 0.5em;
 }
 
 #token-table {
     overflow: auto;
-    height: 33%;
-    
+    height: 50%;
 }
 
 a:hover{
@@ -70,6 +97,7 @@ footer {
     width: 100%;
     left: 0;
     bottom: 0;
+    min-height:51px;
     background-color: #ece6e6;
     border-top-style: solid;
     border-top-color: darkolivegreen;
@@ -84,8 +112,8 @@ ul {
     list-style-type: none;
 }
 
-body {
-    margin-bottom: 14em;
+body {    
+
     background-color: #fda9bc;
     background-image: url(../images/svg/polka_dot.svg);
 }
