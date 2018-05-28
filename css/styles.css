@@ -73,8 +73,13 @@
     height: 50%;
 }
 
-a:hover{
-  
+#particles-js{
+    position:absolute;
+    width:100%;
+    heigth: 100%;
+}
+
+a:hover {
 }
 
 h3 {
@@ -114,6 +119,6 @@ ul {
 
 body {    
 
-    background-color: #fda9bc;
-    background-image: url(../images/svg/polka_dot.svg);
-}
+    position:relative;
+    background-color: #ffacce;
+ }
